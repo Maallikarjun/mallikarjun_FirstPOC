@@ -10,11 +10,11 @@ if [ $Num1 -eq $Num2 ]
 then 
                 echo $Num1 " both are same " echo $Num2
 
-                elif [ $Num1 -lt $Num2  ]
+                elif [ $Num1 -gt $Num2  ]
 then
                         echo $Num1
 
-                elif [ $Num2 -lt $Num1 ]
+                elif [ $Num2 -gt $Num1 ]
 then
                         echo $Num2
                 else
